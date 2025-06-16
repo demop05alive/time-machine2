@@ -1,0 +1,26 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+.StartButton {
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+
+  place-content:center;
+  transform-origin: center;
+  background-color: #04aa6d17; /* Green */
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 60pt 120pt;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 64pt;
+}
